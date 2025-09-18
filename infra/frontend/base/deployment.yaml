@@ -17,4 +17,4 @@ spec:
         - name: frontend  
           image: docker.io/mariiasharkovska/application-frontend:v1
           ports:  
-            - containerPort: 80  
+            - containerPort: 80

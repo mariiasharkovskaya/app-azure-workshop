@@ -15,7 +15,7 @@ spec:
     spec:  
       containers:  
         - name: backend  
-          image: docker.io/stasiko/funneverends-backend:latest  
+          image: docker.io/mariiasharkovska/application-backend:v1
           ports:  
             - containerPort: 5000  
           env:  
