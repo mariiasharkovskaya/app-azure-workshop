@@ -15,7 +15,7 @@ spec:
     spec:  
       containers:  
         - name: backend  
-          image: docker.io/mariiasharkovska/application-backend-x:v1
+          image: docker.io/mariiasharkovska/application-backend-amd64:v1
           ports:  
             - containerPort: 5000  
           env:  

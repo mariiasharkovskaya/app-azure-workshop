@@ -14,7 +14,7 @@ spec:
         app: frontend  
     spec:  
       containers:  
-        - name: frontend  
-          image: docker.io/mariiasharkovska/application-frontend-x:v1
+        - name: frontend
+          image: docker.io/mariiasharkovska/application-frontend-amd64:v1
           ports:  
             - containerPort: 80
